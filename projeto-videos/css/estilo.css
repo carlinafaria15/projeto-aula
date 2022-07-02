@@ -1,0 +1,39 @@
+h1{
+    font:40px;
+    color:blue; 
+
+}
+p{
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.4em;
+}
+footer p{
+    color:brown;
+    font-weight:bold;
+    font-size:30px;
+}
+section article:nth-of-type(1) p:nth-of-type(1){
+    text-transform:capitalize;
+    color:#000;
+    font-weight: bold;
+    font:50px
+}
+section article:nth-of-type(1) ul li{
+    font-weight:bold;
+}
+/*section article2 table tr td*/
+section article:nth-of-type(2) table tr:nth-of-type(2) td:last-child{
+    background-color:#000;
+    color:#fff
+}
+.estilo1{
+    background-color:#999;
+    color:#000;
+    text-transform:uppercase;
+}
+section article:nth-of-type(1) h1:nth-of-type(1){
+    color: black;
+    font:50px;
+    font-weight: bold;
+}

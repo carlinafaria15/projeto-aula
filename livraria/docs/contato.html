@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Projeto Livraria</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+       
+    </head>
+    <body>
+        <!-- Setor de cabeçalho -->
+        <header>
+            <a href="../index.html">
+            <img src="../imagens/logotipo.jpg" width="100"/>
+            </a>
+
+        </header>
+        <!--Setor de navegação-->
+        <nav class="text-center mt-3">
+            <a target="_blank" href="https://www.amazon.com.br/">Visite a Amazon</a>
+            <a href="produtos.html">Produtos</a>
+        </nav>
+        <!--Setor de conteúdo-->
+        <section class="container">
+            <h1 class="text-center">Entre em contato conosco. Conheça nossos canais.</h1>
+            <article>
+                
+                <!--Formulário de contato-->
+                <form id="formContato" class="w-50 mx-auto p-4 mt-5 mb-5" style="border:1px solid #ccc;border-radius: 12px;">
+                    <fieldset>
+                        <legend class="text-center">Fale conosco</legend>
+                        <div class="form-group">
+                            <label>Nome :</label>
+                            <input class="form-control" name="nomeContato" id="nomeContato" maxlength="50" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input class="form-control" name="emailContato" id="emailContato" type="email"required>
+                        </div>
+                        <div class="form-group">
+                            <label> Comentario:</label>
+                            <textarea class="form-control" name="comentario" id="comentario" rows="8"></textarea>
+                        </div>
+                        <div>
+                            <button id="btContato" type="button" class="btn btn-info">Confirmar</button>
+                        </div>
+                    </fieldset>
+                </form>
+                <!--final formulário contato-->
+              <!--<b> ou <strong> e <i> ou e <em> para marcar o texto para não humano -->
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<b> Sed tempus quam id bibendum lacinia. </b><br/>Proin at varius ex. Pellentesque sit amet dolor sapien. Pellentesque lobortis, urna id volutpat eleifend, augue erat malesuada mauris, sit amet ultrices erat mauris eu ante. Phasellus commodo augue risus, ut commodo metus mattis id. Fusce id velit facilisis, eleifend augue eget, tincidunt diam.<i> Duis at facilisis libero.</i>Nam id sodales arcu. Integer consequat sapien porttitor, lacinia risus sed, semper urna. Praesent vitae venenatis lacus, id aliquam lectus. Aenean volutpat luctus ante, at accumsan odio feugiat nec. Praesent porta magna a mi congue, ut viverra quam facilisis. Vestibulum in tellus eros. Donec non elit et neque posuere convallis nec quis enim. Nam quis commodo dolor, vehicula blandit tortor. Curabitur vitae nibh nec massa venenatis pretium vitae id nulla.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe fugiat numquam minus in explicabo iure placeat sed facere, harum minima!</p>
+               <hr/> <!-- linha na horizontal-->
+                <!--lista não ordenada-->
+                <ul>
+                    <li>Mais vendidos</li> 
+                    <li>Best Sellers Mundiais</li>
+                    <li>Autores</li>
+                    <li>Categorias</li>
+
+                </ul>
+                 <!--Formulário de contato-->
+                 <form method="get" action="https://www.google.com/search">
+                    <fieldset>
+                        <legend>Pesquise no Google</legend>
+                        <div>
+                            <label>Palavra-chave</label>
+                            <input name="q" maxlength="50">
+                        </div>
+                        <div>
+                            <button>Confirmar</button>
+                        </div>
+                    </fieldset>
+                </form>
+                <!--final formulário contato-->
+            </article>
+
+            <article>
+                <h2>Livros que podem ser do seu interesse</h2>
+                <!-- Tabela <table>(tabela) <tr>(linhas) <td>(coluna)-->
+                    <table border="1" width="400">
+                        <tr>
+                            <th>Categoria</th>
+                            <th>Autor</th>
+                            <th>Título</th>
+                        </tr>
+                        <tr>
+                            <td>Suspense</td>
+                            <td>Jarbas Neto</td>
+                            <td>Beco do Absurdo</td>
+                        </tr>
+                        <tr>
+                            <td>Aventura</td>
+                            <td>Aurora Bleiser</td>
+                            <td>Fluz e os Piratas do Espaço</td>
+                        </tr>
+                    </table>
+                   <h2>Promoção Relãmpago - Desconto de 20%</h2>
+                   <div>
+                       <a target="_blank" href="https://www.amazon.com.br/Em-Busca-Wondla-Tony-Diterlizzi/dp/8580571782">
+                       <img src="https://images-na.ssl-images-amazon.com/images/I/51a6cC07f%2BL._SY344_BO1,204,203,200_QL70_ML2_.jpg" width="200">
+                   </a>
+                   </div>
+
+            </article>
+        </section>
+        <!--Setor rodapé-->
+        <footer class="bg-dark p-4 text-white text-center mt-4">
+            <p>&copy;2022 - Todos os direitos reservados.</p>
+        </footer>
+    </body>
+    <script src="../js/controle.js"></script>
+</html>
